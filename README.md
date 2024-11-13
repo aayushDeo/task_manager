@@ -58,7 +58,7 @@ The **Task Manager** is a React-based application designed for efficient task ma
 
 5. Open your browser and visit:
 
-    [http://localhost:5173/](http://localhost:5173/)
+    [http://localhost:5173/](http://localhost:3000/)
 
 ## **Project Structure**
 
