@@ -6,18 +6,18 @@ const TaskList = ({ title, tasks, updateTask, deleteTask }) => {
     const [taskToEdit, setTaskToEditState] = useState(null);
 
     const openEditDialog = (task) => {
-        setTaskToEditState(task); // Set the task to be edited
-        setIsEditDialogOpen(true); // Open the dialog
+        setTaskToEditState(task);
+        setIsEditDialogOpen(true);
     };
 
     const closeEditDialog = () => {
-        setIsEditDialogOpen(false); // Close the dialog
-        setTaskToEditState(null); // Clear task to edit
+        setIsEditDialogOpen(false);
+        setTaskToEditState(null);
     };
 
     const handleSaveEdit = (updatedTask) => {
-        updateTask(updatedTask); // Call the update task handler
-        closeEditDialog(); // Close the dialog after saving
+        updateTask(updatedTask);
+        closeEditDialog();
     };
 
     return (
@@ -42,7 +42,7 @@ const TaskList = ({ title, tasks, updateTask, deleteTask }) => {
                         <form
                             onSubmit={(e) => {
                                 e.preventDefault();
-                                handleSaveEdit(taskToEdit); // Save the edited task
+                                handleSaveEdit(taskToEdit);
                             }}
                         >
                             <div className="form-group">
