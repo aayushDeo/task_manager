@@ -64,6 +64,7 @@ The **Task Manager** is a React-based application designed for efficient task ma
 
 ```plaintext
 task_manager/
+├── node_modules/
 ├── public/
 ├── src/
 │   ├── components/
@@ -71,13 +72,27 @@ task_manager/
 │   │   ├── TaskForm.js
 │   │   ├── TaskList.js
 │   │   └── TaskTable.js
+│   ├── styles/
+│   │   ├── Dashboard.css
+│   │   ├── TaskForm.css
+│   │   ├── TaskList.css
+│   │   └── TaskTable.css
 │   ├── utils/
 │   │   └── local_storage_utils.js
-│   ├── styles/
+│   ├── App.css
 │   ├── App.js
-│   └── index.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── .gitignore
+├── answers_to_technical_questions.md
+├── package-lock.json
 ├── package.json
 └── README.md
+
 ```
 
 ## **Assumptions Made During Development**
