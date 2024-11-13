@@ -104,6 +104,6 @@ task_manager/
 ## **Future Enhancements**
 
 -   🔒 **User Authentication**: Enable user sign-in to sync tasks across multiple devices.
--   ⌛ **Enhanced Filters**: Implement additional filters and sorting options (e.g., by due date or priority).
+-   ⌛ **Enhanced Filters**: Implement additional filters and sorting options (e.g., by due date).
 -   ⏰ **Real-Time Notifications**: Add reminders and alerts for upcoming and overdue tasks.
 -   📐 **Improved Design**: Enhance the UI with more styling options, animations, and a dark mode theme.
