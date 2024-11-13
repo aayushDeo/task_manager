@@ -2,13 +2,14 @@
 
 ## **Overview**
 
-The **Task Manager** is a React-based application designed for efficient task management. Users can create, edit, delete, and organize tasks with ease. The application categorizes tasks as **upcoming**, **overdue**, or **completed**, making it simple to keep track of your workload. Additionally, users can filter tasks by priority and search using task titles or descriptions. Data is persisted using local storage, allowing tasks to be retained even after refreshing the page.
+The **Task Manager** is a React-based application designed for efficient task management. Users can create, edit, delete, and organize tasks with ease. The application categorizes tasks as **upcoming**, **overdue**, or **completed**, making it simple to keep track of your workload. Additionally, users can filter tasks by priority and search using task titles or descriptions. To ensure data persistence across sessions, the app utilizes local storage.
 
 ## **Features**
 
 -   ✅ **Task Management**: Create, edit, and delete tasks with a title, description, due date, and priority level.
 -   📅 **Task Categorization**: Automatically classify tasks as **Upcoming**, **Overdue**, or **Completed** based on their due dates.
--   🔍 **Filtering and Searching**: Filter tasks by priority (High, Medium, Low) and status (Completed), and search by title or description.
+-   🔍 **Searching**: Search tasks by title or description.
+-   ⌛ **Filtering**: Filter tasks by priority (High, Medium, Low) and status (Completed).
 -   💾 **Data Persistence**: Save tasks to local storage to maintain them across sessions.
 -   🎨 **User-Friendly Interface**: Clean, responsive design with intuitive UI elements using **Font Awesome** icons.
 
@@ -103,6 +104,6 @@ task_manager/
 ## **Future Enhancements**
 
 -   🔒 **User Authentication**: Enable user sign-in to sync tasks across multiple devices.
--   🛠️ **Enhanced Filters**: Implement additional filters and sorting options (e.g., by due date or priority).
+-   ⌛ **Enhanced Filters**: Implement additional filters and sorting options (e.g., by due date or priority).
 -   ⏰ **Real-Time Notifications**: Add reminders and alerts for upcoming and overdue tasks.
--   🌙 **Improved Design**: Enhance the UI with more styling options, animations, and a dark mode theme.
+-   📐 **Improved Design**: Enhance the UI with more styling options, animations, and a dark mode theme.
